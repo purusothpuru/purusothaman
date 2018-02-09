@@ -1,18 +1,19 @@
 #include<stdio.h>
-int main()
+void main()
 {
-int n,a,b,i,count;
+int n,a,b,i,con;
 printf("enter the two limits");
 scanf("%d%d",&a,&b);
 for(i=a;i<b;i++)
 {
-count=0;
+con=0;
 for(n=2;n<i;n++)
 {
 if(i%n==0)
-count++;
+con++;
 }
-if(count==0)
+if(con==0)
 printf("%d\n",i);
 }
+  getch();
 }
