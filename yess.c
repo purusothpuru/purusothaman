@@ -1,6 +1,7 @@
 #include <stdio.h>
-int main(void) {
+ int main(void) {
 	char n;
+	clrscr();
 	printf("enter the string:",n);
 	scanf("%s",&n);
 	if(n>=65&&n<=90||n>=97&&n<=122)
