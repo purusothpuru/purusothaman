@@ -3,9 +3,10 @@
 void main()
 {
 
-     int a,c;
+     int a,b;
      printf("enter the number:");
      scanf("%d",&a);
-     c=a*2;
-     printf("%d",c);
+     b=a*2;
+     printf("%d",b);
+     getch();
 }
